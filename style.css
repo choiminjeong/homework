@@ -11,7 +11,8 @@
  
   .main-img {
     width: 500px;
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRCPUuYY2OuRGNvPk6WEucREg6JvG7hOGoTfIHoFcPLCHf91fnfkUEzSt7a3DRHKOw-gzMDj53S&usqp=CAc');
+    /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRCPUuYY2OuRGNvPk6WEucREg6JvG7hOGoTfIHoFcPLCHf91fnfkUEzSt7a3DRHKOw-gzMDj53S&usqp=CAc'); */
+    background-image: url('https://www.costco.co.kr/medias/sys_master/images/h94/h8f/10567316307998.jpg');
     background-size: cover;
     background-position: center;
     height: 500px;
