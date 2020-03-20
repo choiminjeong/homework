@@ -35,6 +35,8 @@ function or() {
       $('#inputState').val('')
       $('#inputPassword3').val('')
       $('#inputPassword4').val('')
+    //   $('input').val('')
+
 
     }
 
