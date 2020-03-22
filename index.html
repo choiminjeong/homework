@@ -22,7 +22,8 @@
 
 
   <title>상품 주문하기</title>
-
+ 
+ 
 
 </head>
 
@@ -65,7 +66,7 @@
               <option>4</option>
               <option>5</option>
               <option>6</option>
-              <option>...</option>
+              
             </select>
           </div>
         </div>
@@ -78,7 +79,9 @@
 
         <div class="form-group row line">
           <div class="col-sm-10 line ">
-            전화번호 : <input type="text" class="form-control int-t" id="inputPassword4">
+            전화번호 : <input type="text" class="form-control int-t" id="inputPassword4" 
+             pattern="[0-9]{2,3}-[0-9]{3,4}-[0-9]{3,4}" maxlength="13" >
+
           </div>
         </div>
       </div>
@@ -90,7 +93,7 @@
 
     <div class='end'>
 
-      <button id='order-btn' type="button" class="btn btn-outline-secondary submit" onclick='or()'>주문하기</button>
+      <button id='order-btn' type="button" class="btn btn-outline-secondary submit" onclick='or()' >주문하기</button>
 
     </div>
 
