@@ -65,6 +65,7 @@
     padding: 10px;
     font-size: 20px;
     margin: 0 300px 0 320px ;
+    
     /* margin 0 auto 안되는 이유 - 질문  */
   }
   .order_manual {
