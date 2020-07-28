@@ -38,9 +38,14 @@ function or() {
     $('#inputPassword3').focus()
 
   }
+  else if (push4 == '') {
+    alert('전화번호를 입력해주세요!')
+    $('#inputPassword4').focus()
+
+  }
 
   else if (!patt.test($('#inputPassword4').val())) {
-      alert('전화번호를 정확히 입력하여 주십시오.')
+      alert('휴대폰번호 입력 형식이 틀립니다. \n 010-0000-0000으로 입력해주세요')
       $('#inputPassword4').val('')
       $('#inputPassword4').focus()
       return false 
